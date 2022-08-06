@@ -1,49 +1,54 @@
 body {
-
     margin: 0;
     padding: 0;
 }
-.container{
-    position: relative;
-    color: #ffff;
-    
 
-}
-.container img{
-    width:100%;
-    height:100%;
-}
-
-.container p{
-    font-family: minhafonte ,Arial, helvetica, sans-serif; 
-    text-align: center;
-    font-size:150px;
+.container {
     position: absolute;
-    top:-120px;
-    right: 65%;
-    left: 25%;
-    transition: translate(-50%, -50%);
-    
-    padding:10px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
-.container h4{
-    font-family:outrafonte;
-    position:absolute;
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.h1 {
+    color: white;
+    font-size: 150px;
     text-align: center;
-    color: rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255);
-    font-size: 80px;
-    right: 20%;
-    left: 20%;
-    top:200px;
+    font-family: minhafonte, Arial, Helvetica, sans-serif;
+    position: relative;
+
 }
+
+.h4 {
+    text-align: center;
+    position: relative;
+    background-color: aqua;
+    color: brown;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
 
 
 @font-face {
     font-family: minhafonte;
     src: url(../fontes/minhafonte.TTF);
 }
+
 @font-face {
     font-family: outrafonte;
-    src: url(..);
+    src: url(../fontes/Paper\ Flowers.otf);
 }
