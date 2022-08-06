@@ -26,13 +26,33 @@ img {
 }
 
 .h4 {
+    margin-top: -10%;
+
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 50px;
     text-align: center;
     position: relative;
-    background-color: aqua;
-    color: brown;
-    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.adulto-M {
+    width: 150px;
+    height: 50px;
 
 }
+.adulto-F {
+    width: 70px;
+    height: 50px;
+}
+.duração {
+    width:40px;
+    height: 50px;
+}
+
 
 
 
