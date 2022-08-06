@@ -17,9 +17,9 @@ img {
 }
 
 .h1 {
-    font-size: 100px;
+    color: white;
+    font-size: 150px;
     text-align: center;
-    background-color:#fff;
     font-family: minhafonte, Arial, Helvetica, sans-serif;
     position: relative;
 
