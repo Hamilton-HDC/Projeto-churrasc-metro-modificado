@@ -62,7 +62,7 @@ img {
     position:relative;
     margin: auto;
     width: 150px;
-    height: 100px;
+    height: 150px;
 }
 .C{
     border-radius: 20px;
@@ -78,7 +78,7 @@ img {
     position: relative;
     margin: auto;
     width: 150px;
-    height: 100px;
+    height: 150px;
 
 }
 .D{
@@ -95,12 +95,12 @@ img {
     margin: auto;
     position:relative;
     width: 100px;
-    height: 80px;
+    height: 100px;
 }
 .a-h2{
     font-family: outrafonte,Arial, Helvetica, sans-serif;
     font-size: 45px;
-    margin-top:20px;
+    margin-top:-5px;
     margin-left: 70px;
 }
 
