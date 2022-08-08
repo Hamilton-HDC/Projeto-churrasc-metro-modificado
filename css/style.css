@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
@@ -50,7 +51,7 @@ img {
     border-radius: 20px;
     position: absolute;
     margin-left: 25%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 246, 246);
     width: 230px;
     height: 300px;
 
@@ -66,7 +67,7 @@ img {
 .C{
     border-radius: 20px;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 246, 246);
     margin-left: 44%;
     width: 230px;
     height: 300px;
@@ -83,21 +84,47 @@ img {
 .D{
     border-radius: 20px;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 246, 246);
     margin-left:63%;
     width: 230px;
     height: 300px; 
 }
 .duração{
     display:block;
+    padding-top: 20px;
     margin: auto;
     position:relative;
     width: 100px;
     height: 80px;
 }
+.a-h2{
+    font-family: outrafonte,Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-top:20px;
+    margin-left: 70px;
+}
+
 button{
+    font-family: outrafonte ,Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    width: 200px;
+    height: 70px;
+    font-size: 56px;
+    position: relative;
+    justify-items: auto;
+    margin-top: 800px;
+    margin-left: 45%;   
+}
+.input-a{
+    background-color:rgb(255, 246, 246);
+    display: flex;
+    padding:  20px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+#resultado{
     position: absolute;
-    
 }
 
 
