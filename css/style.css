@@ -38,19 +38,36 @@ img {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
+.pessoas{
+    margin-left: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    position: relative;
+    background-color: brown;
+}
 
-.adulto-M {
-    width: 150px;
-    height: 50px;
+.adultos {
+    margin-left: 200px;
+    display:block;
+    position:absolute ;
+    width: 100px;
+    height: 100px;
+}
+
+.crianças{
+    display:inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
 
 }
-.adulto-F {
-    width: 70px;
-    height: 50px;
-}
-.duração {
-    width:40px;
-    height: 50px;
+.duração{
+    display:inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+
 }
 
 
