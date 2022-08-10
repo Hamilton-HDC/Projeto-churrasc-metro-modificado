@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./imagens/icone churras2.jpeg">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script src="./js/script.js"> </script>
     <title>Churrascômetro</title>
 
 </head>
@@ -19,37 +18,67 @@
         <img src="./imagens/image fundo.jpeg" alt="churrasco">
         <h1 class="h1">C H U R R A S C O M E T R O</h1>
         <h4 class="h4"> Quantidade De Pessoas </h4>
-        
+
         <div class="pessoas">
-            <img class="adultos" src="./imagens/adultos.jpeg" alt="churrasco">
+
+            <div class="A">
+
+                <img class="adultos" src="./imagens/adultos.jpeg" alt="churrasco">
+                <h2 class="a-h2">Adultos</h2>
+                <input id="adultos" name="adultos" type="number">
+
+            </div>
+
+            <div class="C">
+                <img class="crianças" src="./imagens/crianças.jpeg" alt="churrasco">
+                <h2 class="a-h2">Crianças</h2>
+                <input id="criancas" name="crianca" type="number">
+            </div>
+
+            <div class="D">
+                <img class="duração " src="./imagens/image duração.jpeg" alt="churrasco">
+                <h2 class="a-h2">Duração</h2>
+                <input id="duracao" name="duracao" type="number">
+
+            </div>
 
         </div>
-
-        <img class="crianças" src="./imagens/crianças.jpeg" alt="churrasco">
-        <img class="duração " src="./imagens/image duração.jpeg" alt="churrasco">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </div>
 
+
+    <button onclick="calcular()">Calcular</button>
+
+
+    <div id="resultado">
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
 
 </body>
 
