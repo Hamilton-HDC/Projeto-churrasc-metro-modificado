@@ -1,4 +1,4 @@
 # Projeto churrascômetro modificado.
  Projeto para estudos 
 
- Projeto criado no curso do ProgramdorBr para modificarmos, tudo em carácter de Estudos para contato com a linguagem.
+ Projeto de um Churrascômetro dentro do Curoso do ProgramdorBR para treino dos alunos, projeto tem muitas lacunas  a serem preenchidas, mais mesmo assim para mim foi de grande aprendizado e realizações.
